@@ -1,0 +1,3 @@
+# Pascal Lexer
+
+The lexer is generated from `pascal.lex` using `CsLex`. The generated lexer is provided in the file `LexerGenerated.cs`. The lexer tests can be found in `Lexer.cs`; additionally, it's also possible to launch the lexer as an executable and provide the name of the file with text to be tokenized as a command line argument. To do that, compile `LexerGenerated.cs` and execute `LexerGenerated [path_to_your_file]`; the result will be output to the console.
